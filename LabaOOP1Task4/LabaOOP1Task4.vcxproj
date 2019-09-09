@@ -152,10 +152,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="class1.cpp" />
+    <ClCompile Include="Helper.cpp" />
     <ClCompile Include="LabaOOP1Task4.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="class1.h" />
+    <ClInclude Include="Helper.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

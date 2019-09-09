@@ -1,19 +1,13 @@
 #pragma once
 class class1
-{
-	int a;
+{//INCAPSULYACIA
 private:
-	int first_number;
-	int second_number;
+	int number_of_tshirts;
+	int number_of_pants;
 public:
-	class1(int a, int b)
-	{
-		first_number = a;
-		second_number = b;
-	}
-	int Addnumbers()
-	{
-		return first_number + second_number;
-	}
+	class1(int a, int b);
+	class1();
+	int Count_Clothes();
+	int Count_Clothes(int a);
+	void print();
 };
-
